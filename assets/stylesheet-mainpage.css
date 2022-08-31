@@ -1,22 +1,26 @@
 body{
   background-color:#0E1525;
   color:white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  /*font-family: Arial, Helvetica, sans-serif;*/
 }
 .body_light_mode{
   background-color:white;
   color:black;
 }
 .profile_pic {
-  width:125px;
-  height:125px;
-  margin-right:80%;
+  width:200px;
+  height:200px;
   border-radius: 50%;
   shadow: 12px;
-  -moz-box-shadow:    inset 0 0 5px #000000;
+  float:left;
+  -moz-box-shadow:inset 0 0 5px #000000;
   -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow:          0 0 10px #000000;
+  box-shadow:0 0 10px #000000;
 }
-
+.top_text {
+  display:inline-block;
+}
 .rounded_img {
   border-radius: 150px;
 }
@@ -32,6 +36,7 @@ body{
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow:0 0 10px #000000;
   border-radius: 14px;
+  text-align: center;
 }
 .parallax-inner {
   padding-top: 1%;
@@ -42,9 +47,61 @@ body{
 .dark_mode_moon{
   width:25px;
   height:25px;
-  background-image: url("https://i.ibb.co/RvzBsgn/180700.png");
+  margin-left:100%;
+  background-color:black;
+  border-radius:10px;
 }
 .top_div_light_mode {
   background-color:white;
   color:black;
+}
+.mid_div_light_mode {
+  background-color:white;
+  color:black;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+p {
+  font-size: 16px;
+}
+
+.welcome{
+  font-weight: bold;
+  font-size:32px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li :hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #3d4457;
+}
+.inacitve{
+  background-color:#1C2333;
 }
