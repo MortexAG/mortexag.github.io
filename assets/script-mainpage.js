@@ -19,9 +19,17 @@ function light_mode() {
   let list_id = document.getElementById("ul_1");
   list_id.classList.toggle("ul_1_light_mode");
   let github = document.getElementById("github");
-  github.classList.toggle("github-dark")
+  github.classList.toggle("github-light")
+  let replit = document.getElementById("replit");
+  replit.classList.toggle("replit-light");
+  let telegram_bots = document.getElementById("telegram-bots");
+  telegram_bots.classList.toggle("telegram-bots-light");
+  let blender = document.getElementById("blender");
+  blender.classList.toggle("blender-light");
+  let my_api = document.getElementById("my_api");
+  my_api.classList.toggle("my-api-light")
 }
-
+/* To Activate The Selected Side Part Button */
 function button_active(){
   var targ = event.target;
   var but_active = document.getElementById("but_active");
@@ -33,13 +41,57 @@ function button_active(){
     targ.classList.add("active")
     but_active.id = "but_inactive"
   }
-  var replit = targ.textContent
-  console.log(targ.textContent)
-  var holder = document.getElementById("bottom_div");
-  holder.innerHTML = " ";
+
   
 }
+/*  Functions To Show The Segments Of The Requested Site Part */
+function show_replit() {
 
-function show(param_div_id) {
-    document.getElementById('main_place').innerHTML = document.getElementById(param_div_id).innerHTML;
+ var shown = document.getElementsByClassName('visible')[0];
+  
+shown.classList.remove("visible");
+shown.classList.add("invisible");
+var replit = document.getElementById("replit");
+replit.classList.remove('invisible');
+replit.classList.add('visible');
+replit.classList.add("replit")
+  
+  }
+function show_github() {
+ var shown = document.getElementsByClassName('visible')[0];
+shown.classList.remove("visible");
+shown.classList.add("invisible");
+var github = document.getElementById("github");
+github.classList.remove('invisible');
+github.classList.add('visible');
+github.classList.add("github")
+  
+  }
+function show_telegram_bots() {
+ var shown = document.getElementsByClassName('visible')[0];
+shown.classList.remove("visible");
+shown.classList.add("invisible");
+var telegram_bots = document.getElementById("telegram-bots");
+telegram_bots.classList.remove('invisible');
+telegram_bots.classList.add('visible');
+telegram_bots.classList.add("telegram-bots")
+  
+  }
+function show_blender() {
+ var shown = document.getElementsByClassName('visible')[0];
+shown.classList.remove("visible");
+shown.classList.add("invisible");
+var blender = document.getElementById("blender");
+blender.classList.remove('invisible');
+blender.classList.add('visible');
+blender.classList.add("blender")
+  }
+function show_my_api() {
+ var shown = document.getElementsByClassName('visible')[0];
+shown.classList.remove("visible");
+shown.classList.add("invisible");
+var my_api = document.getElementById("my_api");
+my_api.classList.remove('invisible');
+my_api.classList.add('visible');
+my_api.classList.add("my-api")
   }
