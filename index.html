@@ -23,16 +23,29 @@
   </section>
   <div class="margin" style="margin-top:20px;"></div>
   <section class="parallax" id="mid_div">
-  <div class="parallax-inner">
-    <ul>
-  <li class="active" id="but_active"><a href="#home" >Home</a></li>
-  <li id="but_inactive"><a href="#news" onclick="button_active()" >News</a></li>
-  <li id="but_inactive"><a href="#contact" >Contact</a></li>
-  <li id="but_inactive"><a href="#about">About</a></li>
+    <ul style="position: sticky;border-radius:14px;" class="inactive" id="ul_1">
+  <li><a class="active" id="but_active" onclick="button_active(); show('github');" value="github">Github</a></li>
+  <li><a onclick="button_active(); show('replit');"  id="but_inactive" class="inactive" value="replit">Replit</a></li>
+  <li><a onclick="button_active()" class="inactive" id="but_inactive" value="telegram-bots">Telegram Bots</a></li>
+  <li><a onclick="button_active()" class="inactive" id="but_inactive" value="blender">Blender</a></li>
 </ul>
-  </div>
+  <section class="conatiner-parallax" id="bottom_div">
+    <div id="holdit">Main</div>
+    <div class="invisible" id=github>
+    <p>This My Github Account</p>
+    <p><a href="https://github.com/MortexAG" target="_blank">https://github.com/MortexAG</a></p>
+    <p>Also This Site Is Hosted On Github Pages Of One Of My Repositories After Being Written And Debugged On Replit</p>
+    </div>
+    
+        <div class="invisible" id=replit>
+    <p>This My Replit Account</p>
+    <p><a href="https://replit.com/@MortexAG" target="_blank">https://replit.com/@MortexAG</a></p>
+    <p>I Run Mostly Bots in Here, Telegram And Discord Bots</p>
+        </div>
+    
   </section>
-  
+  </section>
+</div>
 </body>
 
 </html>

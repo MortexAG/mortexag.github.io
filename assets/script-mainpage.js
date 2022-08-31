@@ -16,10 +16,30 @@ function light_mode() {
     document.getElementById('dark_mode_moon').src = 'https://i.ibb.co/RvzBsgn/180700.png'
     document.getElementById("dark_mode_moon").title = "Switch To Light Mode"
   }
-
+  let list_id = document.getElementById("ul_1");
+  list_id.classList.toggle("ul_1_light_mode");
+  let github = document.getElementById("github");
+  github.classList.toggle("github-dark")
 }
 
 function button_active(){
-  var active_now = document.getElementById("but_active");
-  active_now.classList.toggle("inactive");
+  var targ = event.target;
+  var but_active = document.getElementById("but_active");
+  if (targ.id == "but_inactive") {
+    but_active.classList.remove("active")
+    but_active.classList.add("inactive")
+    targ.id = "but_active"
+    targ.classList.remove("inactive")
+    targ.classList.add("active")
+    but_active.id = "but_inactive"
+  }
+  var replit = targ.textContent
+  console.log(targ.textContent)
+  var holder = document.getElementById("bottom_div");
+  holder.innerHTML = " ";
+  
 }
+
+function show(param_div_id) {
+    document.getElementById('main_place').innerHTML = document.getElementById(param_div_id).innerHTML;
+  }
