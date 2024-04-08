@@ -41,7 +41,7 @@ const About = () => {
               <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-mauve to-ctp-maroon  ">Blender</span></li>
               <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-lavender to-ctp-peach">Unity</span></li>
               <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-sapphire to-ctp-red  ">Unreal Engine</span></li>
-              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-mauve to-ctp-red  ">Adobe Photoshop & After Effcts & Premiere</span></li>
+              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-mauve to-ctp-red  ">Adobe Photoshop, After Effcts & Premiere</span></li>
               {/* Add more languages as needed */}
             </ul>
 
@@ -61,7 +61,7 @@ const About = () => {
         
         </div>
         <div className="space-x-4 flex flex-col items-center justify-center text-center">
-          <a href="/projects" className="bg-ctp-lavender hover:bg-ctp-mauve active:bg-ctp-mauve/75 font-bold py-2 px-4 rounded-xl text-black transition duration-1000 hover:shadow-md hover:shadow-ctp-lavender">
+          <a href="#/projects" className="bg-ctp-lavender hover:bg-ctp-mauve active:bg-ctp-mauve/75 font-bold py-2 px-4 rounded-xl text-black transition duration-1000 hover:shadow-md hover:shadow-ctp-lavender">
             Projects
           </a>
 
