@@ -1,0 +1,163 @@
+
+[
+    {
+        "id": 22,
+        "name": "My Website",
+        "description": "This website's code, and also it acts as my portfolio",
+        "link": "https://github.com/MortexAG/mortexag.github.io",
+        "image":"assets/my-site.png"
+      },
+      {
+        "id": 21,
+        "name": "My Blog",
+        "description": "My Personal Blog Where I Share My Progress And Future Projects",
+        "link": "https://github.com/MortexAG/My-Blog",
+        "image":"/assets/my-blog.png"
+      },
+    {
+        "id": 20,
+        "name": "Webui For Docker Containers",
+        "description": "A Flask app for managing Docker containers via a secure, user-friendly web interface.",
+        "link": "https://github.com/MortexAG/webui-for-docker-container",
+        "image":"/assets/docker-webui.png"
+      },
+    {
+        "id": 19,
+        "name": "Steam & ShutDown Download Monitor",
+        "description": "An app to shutdown the device after overnight steam updates",
+        "link": "https://github.com/MortexAG/SteamDownloadMonitorShut",
+        "image":"/assets/steam-monitor.png"
+      },
+
+    {
+        "id": 18,
+        "name": "Youtube Audio and Video Downloader",
+        "description": "A Youtube Video/Audio Downloader That Will Get The Highest Quality of The Video Or The Audio File",
+        "link": "https://github.com/MortexAG/Youtube-Audio-Video-Download",
+        "image":"/assets/youtube-downloader.png"
+      },
+    {
+        "id": 17,
+        "name": "Book Collection Tracker",
+        "description": "An App To Control Your Book Collections And Libraries",
+        "link": "https://github.com/MortexAG/BookCollectionTracker",
+        "image":"assets/book-collection.png"
+      },
+
+      {
+        "id": 16,
+        "name": "Password Manager",
+        "description": "A Password Manager Desktop App that Encrypts And Stores Passwords And Usernames ,Uses A Unique Key To Encode, The Key Is Generated On The First Time You Run The App, The Key Is Stored Locally In The Same Directory As The App",
+        "link": "https://github.com/MortexAG/Password-Manager",
+        "image":"/assets/password-manager.png"
+      },
+      {
+        "id": 15,
+        "name": "Image Uploader   ",
+        "description": "Image Uploading Desktop App Made With Pyhon And Using Imgur API",
+        "link": "https://github.com/MortexAG/Image-Uploader",
+        "image":"/assets/image-uploader.png"
+      },
+      {
+        "id": 14,
+        "name": "Cat Care Bot",
+        "description": "This bot was made to check feeding times of my cat, this bot can give the last feeding time, who added the food last time the next feeding time the time remaining to add food",
+        "link": "https://github.com/MortexAG/Telegram-Bots/tree/main/Cat%20Care%20Bot",
+        "image":"/assets/cat-care.png"
+      },
+      {
+        "id": 13,
+        "name": "Harry Potter Short Videos Creator",
+        "description": "This is A Tool To Automates the Creation of Short Videos About Spells From The Harry Potter World",
+        "link": "https://github.com/MortexAG/Harry-Potter-Short-Videos-Creator",
+        "image":""
+      },
+      {
+        "id": 12,
+        "name": "App Status Checker",
+        "description": "A Web App To Show The Current Status of My Web Apps, it Refreshes Every 15 Minutes",
+        "link": "https://github.com/MortexAG/App-Status",
+        "image":""
+      },
+
+    {
+      "id": 11,
+      "name": "Database Table-Editing Tool",
+      "description": "A Python Software That Can Be Used To Edit A Table in Your Database, You Can Create A New Entry Or Change An Entry Or Delete Rows",
+      "link": "https://github.com/MortexAG/Database-Table-Editing-Tool",
+      "image":""
+    },    
+
+      {
+        "id": 10,
+        "name": "Document Converter Bot",
+        "description": "A Telegram Bot That Can Convert Word To PDF And PDF To Word, and Powerpoint To PDF Just Send The Document Directly In The Chat.",
+        "link": "https://github.com/MortexAG/Telegram-Bots/tree/main/Document-Converter",
+        "image":""
+      },
+    {
+        "id": 9,
+        "name": "Grocery Bot",
+        "description": " This is a Telegram bot designed to manage a grocery list, enabling users to add items, list pending and fulfilled items, and mark items as fulfilled.",
+        "link": "https://github.com/MortexAG/Telegram-Bots/tree/main/Grocery%20Bot",
+        "image":""
+      },    
+    {
+        "id": 8,
+        "name": "Image Uploader Bot",
+        "description": "This Bot Uploads Any Sent Image Using The Imgur API",
+        "link": "https://github.com/MortexAG/Telegram-Bots/tree/main/Image%20Uploader",
+        "image":""
+      },
+      {
+        "id": 7,
+        "name": "QR Code Generator",
+        "description": "This Bot Will Convert Any Sent Text To A QR Code With Size Of",
+        "link": "https://github.com/MortexAG/Telegram-Bots/tree/main/QR%20Code%20Generator",
+        "image":""
+      },
+    {
+        "id": 6,
+        "name": "Telegram Bots",
+        "description": "The Telegram Bots I Made",
+        "link": "https://github.com/MortexAG/Telegram-Bots",
+        "image":""
+      },
+    {
+      "id": 5,
+      "name": "Discord Economy Bot",
+      "description": "A Discord Economy Bot that gives daily coins and sells server roles",
+      "link": "https://github.com/MortexAG/Discord-Bots/tree/main/Economy-Bot",
+      "image":""
+    },
+    {
+        "id": 4,
+        "name": "Discord Encrypt/Decrypt Bot",
+        "description": "A Discord Bot To Encrypt And Decrypt A Sent Message",
+        "link": "https://github.com/MortexAG/Discord-Bots/tree/main/Encrypt-Decrypt",
+        "image":""
+      },
+      {
+        "id": 3,
+        "name": "Discord Bots",
+        "description": "All The Discord Bots I Created",
+        "link": "https://github.com/MortexAG/Discord-Bots",
+        "image":""
+      },
+      {
+        "id": 2,
+        "name": "Calm Gamers Social Site",
+        "description": "Calm Gamers Social Site, It's Basically A Social Media Site Where You Can Create An Account And Post Images And Text",
+        "link": "https://github.com/MortexAG/CalmGamersSocial",
+        "image":""
+      },
+      {
+        "id": 1,
+        "name": "PHP Login Form",
+        "description": "A Template For A Complete PHP Login Form, Using A Free RemoteMySQL Database",
+        "link": "https://github.com/MortexAG/PHP-Login-Form",
+        "image":"https://github.com/MortexAG/PHP-Login-Form/blob/main/instructions/5.PNG?raw=true"  
+      }
+
+  ]
+  
