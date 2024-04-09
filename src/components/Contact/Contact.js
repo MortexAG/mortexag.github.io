@@ -18,7 +18,7 @@ export default function Contact() {
         <div id="theme" className="min-h-screen grid">
             <main className="flex flex-col items-center justify-center text-center bg-gradient-to-b from-ctp-base to-ctp-crust p-6">
                 <h1 className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-pink to-ctp-mauve text-5xl font-bold p-4 mt-8 mb-8">
-                    Contact
+                    Contact Me
                 </h1>
                 {/* <form onSubmit={handleSubmit} className="w-full max-w-xs">
                     <input

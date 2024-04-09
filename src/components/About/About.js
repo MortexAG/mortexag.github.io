@@ -1,4 +1,4 @@
-import "../style.css";
+import "../../style.css";
 
 const About = () => {
 
@@ -61,7 +61,7 @@ const About = () => {
         
         </div>
         <div className="space-x-4 flex flex-col items-center justify-center text-center">
-          <a href="#/projects" className="bg-ctp-lavender hover:bg-ctp-mauve active:bg-ctp-mauve/75 font-bold py-2 px-4 rounded-xl text-black transition duration-1000 hover:shadow-md hover:shadow-ctp-lavender">
+          <a href="/projects" className="bg-ctp-lavender hover:bg-ctp-mauve active:bg-ctp-mauve/75 font-bold py-2 px-4 rounded-xl text-black transition duration-1000 hover:shadow-md hover:shadow-ctp-lavender">
             Projects
           </a>
 

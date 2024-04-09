@@ -22,10 +22,10 @@ export default function Home() {
         </p>
 
         <div className="space-x-4 mb-10">
-          <a href="#/projects" className="bg-ctp-lavender hover:bg-ctp-mauve active:bg-ctp-mauve/75 font-bold py-2 px-4 rounded-xl transition duration-1000 hover:shadow-md hover:shadow-ctp-lavender">
+          <a href="/projects" className="bg-ctp-lavender hover:bg-ctp-mauve active:bg-ctp-mauve/75 font-bold py-2 px-4 rounded-xl transition duration-1000 hover:shadow-md hover:shadow-ctp-lavender">
             View Projects
           </a>
-          <a href="#/contact" className="bg-ctp-lavender hover:bg-ctp-mauve active:bg-ctp-mauve/75 font-bold py-2 px-4 rounded-xl transition duration-1000 hover:shadow-md hover:shadow-ctp-lavender">
+          <a href="/contact" className="bg-ctp-lavender hover:bg-ctp-mauve active:bg-ctp-mauve/75 font-bold py-2 px-4 rounded-xl transition duration-1000 hover:shadow-md hover:shadow-ctp-lavender">
             Contact Me
           </a>
         </div>

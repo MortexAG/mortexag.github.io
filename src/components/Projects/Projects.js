@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import projectsList from './data/projects.json';
+import projectsList from '../data/projects.json';
 
 const linkSub = "/assets/github-logo.png";
 
