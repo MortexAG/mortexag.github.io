@@ -4,8 +4,11 @@ import { Link } from "react-router-dom";
 import '../style.css'
 
 
-import {ReactComponent as MoonIcon} from './assets/moon.svg';
-import {ReactComponent as SunIcon} from './assets/sun.svg';
+// import {ReactComponent as MoonIcon} from './assets/moon.svg';
+// import {ReactComponent as SunIcon} from './assets/sun.svg';
+
+const darkMode = "🌙";
+const lightMode = "🔆"
 
 function Navbar() {
     const [isDarkMode, setIsDarkMode] = React.useState(false);
@@ -17,7 +20,7 @@ function Navbar() {
         const theme_switch = document.getElementById('the_theme');
 
         theme_switch.classList.toggle('ctp-macchiato')
-        
+
         //element.classList.toggle('ctp-macchiato')
 
     };
@@ -54,9 +57,13 @@ function Navbar() {
           </ul>
 
           {/* SVG Button, adjust the width and height directly in the SVG component or use Tailwind classes */}
-          <button id="switcher" onClick={toggleDarkMode} className="btn btn-left flex-shrink-0">
-            {isDarkMode ? <SunIcon alt="Light Mode" className=" w-8 h-8 "/> : <MoonIcon alt="Dark Mode" className=" w-8 h-8 "/>}
+          <button id="switcher" onClick={toggleDarkMode} className="btn btn-left flex-shrink-0 text-transparent bg-clip-text bg-gradient-to-r from-ctp-lavender to-ctp-maroon nav-hover text-2xl">
+            {isDarkMode ? darkMode : lightMode}
           </button>
+
+          {/* <button id="switcher" onClick={toggleDarkMode} className="btn btn-left flex-shrink-0">
+            {isDarkMode ? <MoonIcon alt="Dark Mode" className=" w-8 h-8 "/> : <SunIcon alt="Light Mode" className=" w-8 h-8 "/>}
+          </button> */}
 
           
 
