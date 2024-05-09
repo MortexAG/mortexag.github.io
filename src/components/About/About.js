@@ -13,8 +13,7 @@ const About = () => {
             <div className="max-w-5xl mx-auto p-6 text-left text-3xl font-semibold text-ctp-subtext0">
 
             <p className=" font-semibold mb-4">Hello, I am 
-            <span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-pink to-ctp-mauve  font-bold mb-8"> MortexAG</span> and my real name is <span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-pink to-ctp-mauve text-3xl font-bold mb-8">
-                 Ahmed Gouda</span>.</p>
+            <span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-pink to-ctp-mauve  font-bold mb-8"> MortexAG</span>.</p>
                 
                  <hr className="w-1/3 mx-auto my-4 border-t-2 border-ctp-mauve mt-8 mb-8"></hr>
                 
@@ -23,25 +22,25 @@ const About = () => {
 
                 <hr className="w-1/3 mx-auto my-4 border-t-2 border-ctp-mauve mt-8 mb-8"></hr>
 
-            <p className="mb-4">I have experience with several programming languages including:</p>
+            <p className="mb-4 text-4xl text-transparent bg-gradient-to-r bg-clip-text from-ctp-maroon to-ctp-lavender p-1">I have experience with several programming languages</p>
 
             <ul className="list-disc list-inside">
-              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-mauve to-ctp-maroon  ">Python</span> (Flask, Tkinter)</li>
-              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-lavender to-ctp-peach">JavaScript</span> (React, Node.js)</li>
-              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-sapphire to-ctp-red  ">C#</span> (Unity)</li>
+              <li><span >Python</span> (Flask, Tkinter)</li>
+              <li><span >JavaScript</span> (React, Node.js)</li>
+              <li><span >C#</span> (Unity)</li>
               {/* Add more languages as needed */}
             </ul>
 
                 <hr className="w-1/3 mx-auto my-4 border-t-2 border-ctp-mauve mt-8 mb-8"></hr>
 
-            <h2 className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-lavender to-ctp-maroon text-4xl font-bold mb-8 p-1">Software I Worked With</h2>
+            <h2 className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-maroon to-ctp-lavender text-4xl font-bold mb-8 p-1">Software I Worked With</h2>
 
             <ul className="list-disc list-inside">
 
-              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-mauve to-ctp-maroon  ">Blender</span></li>
-              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-lavender to-ctp-peach">Unity</span></li>
-              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-sapphire to-ctp-red  ">Unreal Engine</span></li>
-              <li><span className="text-transparent bg-gradient-to-r bg-clip-text from-ctp-mauve to-ctp-red  ">Adobe Photoshop, After Effcts & Premiere</span></li>
+              <li><span >Blender</span></li>
+              <li><span >Unity</span></li>
+              <li><span >Unreal Engine</span></li>
+              <li><span >Adobe Photoshop, After Effcts & Premiere</span></li>
               {/* Add more languages as needed */}
             </ul>
 
